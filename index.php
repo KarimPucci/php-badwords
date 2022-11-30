@@ -8,13 +8,13 @@
 </head>
 <body>
 <?php
-$nome = 'Karim'; ?>
+$nome = 'Utente'; ?>
 
     <p>Benvenuto <?php echo $nome; ?>!!!!!</p>
 
-  <form action="./pagina-di-atterraggio.php" method="POST">
-    <input type="text" name="nome" placeholder="nome" /><br>
-    <input type="text" name="cognome" placeholder="cognome" /><br>
+  <form action="./second_page.php" method="POST">
+    <input type="text" name="testo" placeholder="inserisci il testo" /><br>
+    <input type="text" name="censura" placeholder="inserisci censura" /><br>
     <button type="submit">invia</button>
   </form>
     
